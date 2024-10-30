@@ -1,0 +1,228 @@
+#contact-team-member-bubble {
+  font-size: 1rem;
+  position: fixed;
+  bottom: -120px;
+  right: 0px;
+  z-index: 700;
+  -moz-transition: bottom 1s;
+  -o-transition: bottom 1s;
+  -webkit-transition: bottom 1s;
+  transition: bottom 1s; }
+  #contact-team-member-bubble.load {
+    bottom: 0px; }
+  #contact-team-member-bubble:hover {
+    -moz-transition: bottom 0.2s;
+    -o-transition: bottom 0.2s;
+    -webkit-transition: bottom 0.2s;
+    transition: bottom 0.2s;
+    bottom: 0.5em; }
+  #contact-team-member-bubble .inner-content {
+    padding: 20px;
+    position: relative; }
+    #contact-team-member-bubble .inner-content .bubble,
+    #contact-team-member-bubble .inner-content .gravity-form {
+      right: 90px;
+      display: block;
+      bottom: 20px;
+      position: absolute;
+      background-color: #fff;
+      border-radius: 100px;
+      font-size: 1em;
+      text-align: center;
+      padding: 14px 30px 16px;
+      opacity: 0.7;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+      text-decoration: none;
+      color: #000;
+      width: 250px; }
+    #contact-team-member-bubble .inner-content .bubble {
+      font-size: 1em;
+      line-height: 1.2em;
+      bottom: auto;
+      top: 50%;
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+      -moz-transition: opacity 0.4s;
+      -o-transition: opacity 0.4s;
+      -webkit-transition: opacity 0.4s;
+      transition: opacity 0.4s; }
+      @media only screen and (max-width: 340px) {
+        #contact-team-member-bubble .inner-content .bubble {
+          display: none; } }
+      #contact-team-member-bubble .inner-content .bubble a {
+        text-decoration: none;
+        color: #000; }
+      #contact-team-member-bubble .inner-content .bubble .gravity-indication {
+        opacity: 0;
+        position: absolute;
+        top: -1.6em;
+        color: #fff;
+        font-size: 0.8em;
+        text-align: center;
+        left: 0px;
+        width: 100%;
+        -moz-transition: opacity 0.4s;
+        -o-transition: opacity 0.4s;
+        -webkit-transition: opacity 0.4s;
+        transition: opacity 0.4s; }
+      #contact-team-member-bubble .inner-content .bubble:hover .gravity-indication {
+        opacity: 1; }
+    #contact-team-member-bubble .inner-content .gravity-form {
+      display: none;
+      border-radius: 0px;
+      max-width: 500px;
+      padding: 0px;
+      width: 450px; }
+      @media only screen and (max-width: 481px) {
+        #contact-team-member-bubble .inner-content .gravity-form {
+          bottom: 90px;
+          right: 20px;
+          width: 300px; } }
+      @media only screen and (max-width: 300px) {
+        #contact-team-member-bubble .inner-content .gravity-form {
+          width: 200px; } }
+      #contact-team-member-bubble .inner-content .gravity-form .close-gravity {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        color: #000;
+        background-image: url(../img/close.png);
+        background-position: 50%;
+        background-size: 100%;
+        text-indent: -10000px;
+        font-size: 0px;
+        overflow: hidden;
+        width: 15px;
+        height: 15px; }
+      #contact-team-member-bubble .inner-content .gravity-form .gform_footer {
+        margin-top: 0px;
+        padding: 1em 1.5em; }
+      #contact-team-member-bubble .inner-content .gravity-form .gform_body {
+        padding: 1em 1.5em;
+        padding-bottom: 0px; }
+      #contact-team-member-bubble .inner-content .gravity-form .gform_wrapper {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        max-width: 100%; }
+      #contact-team-member-bubble .inner-content .gravity-form.hide {
+        display: none; }
+      #contact-team-member-bubble .inner-content .gravity-form .validation_error,
+      #contact-team-member-bubble .inner-content .gravity-form .gfield_error {
+        border: none;
+        border-radius: 0px;
+        background-color: #fff;
+        font-size: 1em; }
+      #contact-team-member-bubble .inner-content .gravity-form .gfield_required {
+        color: #d84a4a; }
+      #contact-team-member-bubble .inner-content .gravity-form .ginput_container {
+        width: 100%;
+        margin: 0px;
+        max-width: 100%; }
+      #contact-team-member-bubble .inner-content .gravity-form .validation_error {
+        margin: 0px;
+        padding: 1em 1.5em;
+        max-width: 100%;
+        width: 100%;
+        background-color: #d84a4a;
+        color: #fff;
+        text-align: center; }
+      #contact-team-member-bubble .inner-content .gravity-form label {
+        color: #000;
+        margin-top: 0px;
+        margin-left: 0px; }
+      #contact-team-member-bubble .inner-content .gravity-form .gform_wrapper .top_label .gfield_error {
+        width: 100%; }
+      #contact-team-member-bubble .inner-content .gravity-form input[type="text"],
+      #contact-team-member-bubble .inner-content .gravity-form input[type="password"],
+      #contact-team-member-bubble .inner-content .gravity-form input[type="datetime"],
+      #contact-team-member-bubble .inner-content .gravity-form input[type="datetime-local"],
+      #contact-team-member-bubble .inner-content .gravity-form input[type="date"],
+      #contact-team-member-bubble .inner-content .gravity-form input[type="month"],
+      #contact-team-member-bubble .inner-content .gravity-form input[type="time"],
+      #contact-team-member-bubble .inner-content .gravity-form input[type="week"],
+      #contact-team-member-bubble .inner-content .gravity-form input[type="number"],
+      #contact-team-member-bubble .inner-content .gravity-form input[type="email"],
+      #contact-team-member-bubble .inner-content .gravity-form input[type="url"],
+      #contact-team-member-bubble .inner-content .gravity-form input[type="search"],
+      #contact-team-member-bubble .inner-content .gravity-form input[type="tel"],
+      #contact-team-member-bubble .inner-content .gravity-form input[type="color"],
+      #contact-team-member-bubble .inner-content .gravity-form select,
+      #contact-team-member-bubble .inner-content .gravity-form textarea,
+      #contact-team-member-bubble .inner-content .gravity-form .field {
+        width: 100%;
+        padding: 1em;
+        max-width: 100%; }
+      #contact-team-member-bubble .inner-content .gravity-form .gfield_error input[type="text"],
+      #contact-team-member-bubble .inner-content .gravity-form .gfield_error input[type="password"],
+      #contact-team-member-bubble .inner-content .gravity-form .gfield_error input[type="datetime"],
+      #contact-team-member-bubble .inner-content .gravity-form .gfield_error input[type="datetime-local"],
+      #contact-team-member-bubble .inner-content .gravity-form .gfield_error input[type="date"],
+      #contact-team-member-bubble .inner-content .gravity-form .gfield_error input[type="month"],
+      #contact-team-member-bubble .inner-content .gravity-form .gfield_error input[type="time"],
+      #contact-team-member-bubble .inner-content .gravity-form .gfield_error input[type="week"],
+      #contact-team-member-bubble .inner-content .gravity-form .gfield_error input[type="number"],
+      #contact-team-member-bubble .inner-content .gravity-form .gfield_error input[type="email"],
+      #contact-team-member-bubble .inner-content .gravity-form .gfield_error input[type="url"],
+      #contact-team-member-bubble .inner-content .gravity-form .gfield_error input[type="search"],
+      #contact-team-member-bubble .inner-content .gravity-form .gfield_error input[type="tel"],
+      #contact-team-member-bubble .inner-content .gravity-form .gfield_error input[type="color"],
+      #contact-team-member-bubble .inner-content .gravity-form .gfield_error select,
+      #contact-team-member-bubble .inner-content .gravity-form .gfield_error textarea,
+      #contact-team-member-bubble .inner-content .gravity-form .gfield_error .field {
+        border-color: #d84a4a; }
+    #contact-team-member-bubble .inner-content .bubble-thumbnail {
+      display: block;
+      max-width: 60px;
+      vertical-align: middle;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+      border-radius: 30px;
+      overflow: hidden;
+      border: 2px solid #fff;
+      margin-left: 0.4em; }
+      #contact-team-member-bubble .inner-content .bubble-thumbnail img {
+        max-width: 100%;
+        display: block; }
+  #contact-team-member-bubble.gravity-active .bubble,
+  #contact-team-member-bubble.gravity-active .gravity-form {
+    vertical-align: bottom; }
+  #contact-team-member-bubble.gravity-active .bubble {
+    display: none; }
+  #contact-team-member-bubble.gravity-active .gravity-form {
+    display: inline-block; }
+  #contact-team-member-bubble:hover .bubble,
+  #contact-team-member-bubble:hover .gravity-form {
+    opacity: 1; }
+  #contact-team-member-bubble.notification-style .bubble {
+    display: none; }
+  #contact-team-member-bubble.notification-style .notification {
+    display: block; }
+  #contact-team-member-bubble .notification {
+    display: none;
+    opacity: 0;
+    top: 15px;
+    right: 15px;
+    z-index: 10;
+    position: absolute;
+    background-color: #d84a4a;
+    overflow: hidden;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 2em;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    height: 22px;
+    width: 22px;
+    -moz-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+    -webkit-transition-delay: 4s;
+    transition-delay: 4s; }
+  #contact-team-member-bubble.load .notification {
+    opacity: 1; }

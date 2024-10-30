@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-06-01 23:34+0200\n"
+"PO-Revision-Date: 2016-06-01 23:35+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: languages\n"
+
+#: includes/class.contact-team-member-admin.php:49
+msgid "Contact Team Member"
+msgstr "Contact Team Member"
+
+#: includes/class.contact-team-member-admin.php:60
+msgid "Contact Team Member - Settings"
+msgstr "Contact Team Member - Réglages"
+
+#: includes/class.contact-team-member-admin.php:68
+msgid "Save changes"
+msgstr "Sauvergarder les modifications"
+
+#: includes/class.contact-team-member-admin.php:83
+msgid "Main settings"
+msgstr "Réglages principaux"
+
+#: includes/class.contact-team-member-admin.php:92
+msgid "Message(s)"
+msgstr "Message(s)"
+
+#: includes/class.contact-team-member-admin.php:103
+msgid "Avatar"
+msgstr "Avatar / Image"
+
+#: includes/class.contact-team-member-admin.php:114
+msgid "Link (internal or external)"
+msgstr "Destination au clic (Url interne ou externe)"
+
+#: includes/class.contact-team-member-admin.php:125
+msgid "Notification style"
+msgstr "Style notification"
+
+#: includes/class.contact-team-member-admin.php:136
+msgid "Gravity form (ID)"
+msgstr "ID du formulaire Gravity Form"
+
+#: includes/class.contact-team-member-admin.php:161
+msgid "Remove"
+msgstr "Supprimer"
+
+#: includes/class.contact-team-member-admin.php:167
+msgid "Add a new message"
+msgstr "Ajouter un nouveau message"
+
+#: includes/class.contact-team-member-admin.php:168
+msgid ""
+"You can insert html tags in your content, if you enter several messages, "
+"they will be displayed randomly."
+msgstr ""
+"Vous pouvez entrer des balises HTML dans le contenu de vos messages. Si vous "
+"créez plusieurs messages, ils seront affichés de façon aléatoire."
+
+#: includes/class.contact-team-member-admin.php:176
+msgid ""
+"Give the link to the picture display, you can add it to the media library to "
+"retrieve the link. The image must be square and the dimensions must be at "
+"least 150x150px."
+msgstr ""
+"Renseignez le lien de l’image à afficher, vous pouvez ajouter une image dans "
+"la bibliothèque des medias et récupérer le lien associé à l’image. L’image "
+"doit être carrée et doit au minimum être de 150px par 150px."
+
+#: includes/class.contact-team-member-admin.php:184
+msgid "You can fill an external or internal link as desired."
+msgstr "Vous pouvez spécifier un lien externe."
+
+#: includes/class.contact-team-member-admin.php:197
+msgid ""
+"Bring up the message as a notification bubble requiring action to display "
+"the message."
+msgstr ""
+"Afficher un indicateur de notification et afficher la bulle du message au "
+"clic sur l’avatar."
+
+#: includes/class.contact-team-member-admin.php:206
+msgid "Specify the form id to point to click on the bubble."
+msgstr "Renseignez l’ID du formulaire à afficher au clic sur la bulle."
+
+#: includes/class.contact-team-member.php:89
+msgid "Click to open form!"
+msgstr "Cliquez pour voir le formulaire"
+
+#: includes/class.contact-team-member.php:96
+msgid "Close"
+msgstr "Fermer"
+
+#~ msgid "Message"
+#~ msgstr "Message"
+
+#~ msgid "You can insert html tags in your content."
+#~ msgstr "Vous pouvez intégrer des balises HTML dans votre contenu."

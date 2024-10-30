@@ -1,0 +1,10 @@
+.contact-member-team-settings input[type=text],
+.contact-member-team-settings textarea {
+  width: 100%;
+  max-width: 500px;
+  padding: 1em; }
+.contact-member-team-settings p {
+  max-width: 500px; }
+.contact-member-team-settings .action-tool {
+  font-size: 0.8em;
+  cursor: pointer; }
